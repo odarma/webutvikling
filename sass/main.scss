@@ -99,13 +99,9 @@ nav{
         a{
             text-decoration: none;
             color: #fff;
-            .clickable {
-                color: black;
-                background-color: #CCCCCC;
-            }
-            .clickable:focus {
-                color: white;
-                background-color: #333333;
+            :focus {
+                color: rgb(0, 0, 0);
+                background-color: #ffffff;
             }
         }
         /* Hva: Fjerner understrek på lenker og setter hvit tekst.
@@ -168,6 +164,10 @@ nav{
         min-height: 200px;
         display: flex;
         align-items: end;
+        :focus {
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+        }
     }
     /* Hva: Styler hver kategoriartikkel.
        Hvorfor: Gir en bakgrunnsfarge og runder av kantene for moderne utseende.
@@ -262,6 +262,11 @@ nav{
         flex-basis: 35%;
         flex-grow: 1;
         min-width: 150px;
+
+        :focus {
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+        }
     }
     /* Hva: Layout for populære kategorier.
        Hvorfor: Lar seksjonen tilpasse seg skjermstørrelse.
@@ -329,6 +334,10 @@ footer{
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
+    :focus {
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+    }
 }
 /* Hva: Lager en knappstil.
    Hvorfor: For å gjøre klikkbare elementer tydeligere og mer interaktive.
@@ -348,6 +357,10 @@ footer{
 
                 span{
                     display: inline-block;
+                    :focus {
+                        color: rgb(0, 0, 0);
+                        background-color: #ffffff;
+                    }
                 }
             }
         }

@@ -100,13 +100,9 @@ nav ul a {
   text-decoration: none;
   color: #fff;
 }
-nav ul a .clickable {
-  color: black;
-  background-color: #CCCCCC;
-}
-nav ul a .clickable:focus {
-  color: white;
-  background-color: #333333;
+nav ul a :focus {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 nav ul i {
   font-size: 20px;
@@ -164,6 +160,10 @@ nav ul span {
   min-height: 200px;
   display: flex;
   align-items: end;
+}
+#categories article :focus {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 #categories h2 {
   grid-column: 1/3;
@@ -250,6 +250,10 @@ nav ul span {
   flex-grow: 1;
   min-width: 150px;
 }
+#popular article :focus {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
 
 .logo {
   height: 100px;
@@ -310,6 +314,10 @@ footer .some i {
   text-decoration: none;
   border-radius: 30px;
 }
+.btn :focus {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
 
 /* Hva: Lager en knappstil.
    Hvorfor: For å gjøre klikkbare elementer tydeligere og mer interaktive.
@@ -327,6 +335,10 @@ footer .some i {
   }
   nav ul a span {
     display: inline-block;
+  }
+  nav ul a span :focus {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
   }
 }
 /* Hva: Medieforespørsel som tilpasser layouten for større skjermer.
