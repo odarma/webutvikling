@@ -95,10 +95,18 @@ nav{
            Hvorfor: Gir en fleksibel layout som fordeler elementene jevnt og rundes av for moderne design.
            Hvordan: Flexbox fordeler elementene, og background-color gir en kontrasterende farge.
         */
-
+        
         a{
             text-decoration: none;
             color: #fff;
+            .clickable {
+                color: black;
+                background-color: #CCCCCC;
+            }
+            .clickable:focus {
+                color: white;
+                background-color: #333333;
+            }
         }
         /* Hva: Fjerner understrek på lenker og setter hvit tekst.
            Hvorfor: Bedrer utseendet og kontrasten mot bakgrunnsfargen.

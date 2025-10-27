@@ -100,6 +100,14 @@ nav ul a {
   text-decoration: none;
   color: #fff;
 }
+nav ul a .clickable {
+  color: black;
+  background-color: #CCCCCC;
+}
+nav ul a .clickable:focus {
+  color: white;
+  background-color: #333333;
+}
 nav ul i {
   font-size: 20px;
 }
