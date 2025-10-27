@@ -8,7 +8,7 @@ $mainFont: "Montserrat", sans-serif;
 /* Hva: Definerer en SCSS-variabel for hovedfonten.
    Hvorfor: For å sikre konsistent typografi på tvers av hele nettstedet og gjøre det enkelt å endre font senere hvis nødvendig.
    Hvordan: SCSS-variabelen lagres som $mainFont, og kan gjenbrukes overalt i stilen.
-*/
+*s/
 
 @mixin grid-placement($column, $row){
     grid-column: #{$column};
